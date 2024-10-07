@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berita Kriminal Terkini</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cases {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px; /* adds space between articles */
+        }
+
+        .cases article {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px; /* adds space between image and text */
+        }
+
+        .cases img {
+            width: 300px; /* fixed width for images */
+            height: auto;
+        }
+
+        .cases hgroup, .cases p {
+            text-align: left;
+        }
+
+        .cases hgroup {
+            margin: 0;
+        }
+
+        .cases p {
+            max-width: 500px; /* control text width */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Berita Kriminal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="current">Beranda</a></li>
+                    <li><a href="#">Kasus Terbaru</a></li>
+                    <li><a href="#">Investigasi</a></li>
+                    <li><a href="#">Laporan Polisi</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="cases">
+            <article>
+                <figure>
+                    <img src="tempat.jpg" alt="Kasus Pembunuhan" />
+                    <figcaption>Pembunuhan di Kota X</figcaption>
+                </figure>
+                <div style="margin-top: 30px;">
+                    <hgroup>
+                        <h2>Pembunuhan Misterius di Kota X</h2>
+                        <h2>Investigasi Sedang Berjalan</h2>
+                    </hgroup>
+                    <p>
+                        Sebuah pembunuhan tragis mengguncang warga Kota X. Korban ditemukan dalam kondisi mengenaskan di rumahnya. Pihak kepolisian saat ini sedang melakukan investigasi menyeluruh untuk menemukan pelaku di balik aksi keji ini.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <figure>
+                    <img src="b0af003940315a62b2631b74d50d4146.jpg" alt="Tersangka Kasus Pembunuhan" />
+                    <figcaption>Tersangka Utama</figcaption>
+                </figure>
+                <div style="margin-top: 50px;">
+                    <hgroup>
+                        <h2>Polisi Menemukan Tersangka Utama</h2>
+                        <h2>Perkembangan Kasus</h2>
+                    </hgroup>
+                    <p>
+                        Setelah penyelidikan mendalam, polisi berhasil mengidentifikasi seorang tersangka yang diduga terlibat dalam kasus ini. Bukti kuat telah ditemukan, dan pengadilan akan segera digelar untuk menuntut keadilan bagi korban.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <aside>
+            <section class="kasus-lain">
+                <h2>Kasus Kriminal Lainnya</h2>
+                <a href="#">Perampokan Berujung Maut</a>
+                <a href="#">Pembakaran Rumah Warga</a>
+                <a href="#">Penikaman di Jalan Raya</a>
+                <a href="#">Kasus Kekerasan Dalam Rumah Tangga</a>
+            </section>
+            <section class="kontak">
+                <h2>Hubungi Kami</h2>
+                <p>Berita Kriminal Terkini</p>
+            </section>
+        </aside>
+        <footer>
+            &copy; Berita Kriminal 2024
+        </footer>
+    </div>
+</body>
+</html>
+
