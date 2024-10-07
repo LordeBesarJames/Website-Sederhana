@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color:  gray;
+    background-image: url(foto/bg.jpg);
+    background-position: center;
+    color: #666;
+    margin-top: 50px;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;
+    border: 2px solid #000;
+    background-color: whitesmoke;
+}
+
+header {
+    height: 160px;
+    background-image: url(foto/logohead.jpg);
+    background-size: cover;
+    background-color: rgb(168, 49, 49);
+}
+
+h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0;
+}
+
+nav {
+    background-color: #aeaca8;
+    height: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: #000;
+}
+
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eee;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    margin: 20px;
+    border: 1px solid #eee;
+    padding: 5px;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+hgroup h2 {
+    margin: 10px 0;
+}
+
+aside {
+    float: right;
+    width: 230px;
+    padding: 20px;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #de6581;
+}
+
+aside section a:hover {
+    background-color: #efefef;
+    color: #985d6a;
+}
+
+footer {
+    clear: both;
+    background-color: #aeaca8;
+    color: #fff;
+    font-size: 80%;
+    text-align: center;
+    padding: 7px;
+}
